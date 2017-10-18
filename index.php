@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
+
+function getDescription($seed) {
+    switch($seed) {
+        case 0:
+            return "The beginning of all things";
+        case 1:
+            return "The number given to winners in first place";
+        case 2:
+            return "All good things come in pairs";
+        case 3:
+            return "The three important stages in ones life, birth, marriage and death";
+        case 4:
+            return "The four seasons of the year are Spring, Summer, Autumn and Winter";
+        case 5:
+            return "There are five flavours, sweet, sour, bitter, pungent, salty";
+        case 6:
+    }
+}
+
+
+$seedA = rand(0, 8);
+$seedB = rand(0, 8);
+
+$seedDescriptionA = getDescription($seedA);
+
 $luckyalpha  = chr(rand(65,90));
 
 $_lucky1 = rand(0, 99);
