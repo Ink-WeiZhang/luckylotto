@@ -5,29 +5,45 @@
 function getDescription($seed) {
     switch($seed) {
         case 0:
-            return "The beginning of all things";
+            return "<b>Zero</b> is the beginning of all things.";
         case 1:
-            return "The number given to winners in first place";
+            return "<b>One</b> is the number given to winners in first place.";
         case 2:
-            return "All good things come in pairs";
+            return "<b>Two</b> is a pair and all good things come in pairs.";
         case 3:
-            return "The three important stages in ones life, birth, marriage and death";
+            return "<b>Three</b> is the number of important stages in one's life, birth, marriage and death.";
         case 4:
-            return "The four seasons of the year are Spring, Summer, Autumn and Winter";
+            return "<b>Four</b> is the number of seasons in a year; Spring, Summer, Autumn and Winter.";
         case 5:
-            return "There are five flavours, sweet, sour, bitter, pungent, salty";
+            return "<b>Five</b> is the number of flavours in life; sweet, sour, bitter, pungent, salty.";
         case 6:
+            return "<b>Six</b> is the most harmonious of all single-digit numbers";
+        case 7:
+            return "<b>Seven</b> is a magic number; Lucky number seven.";
+        case 8:
+            return "<b>Eight</b> is the number of wealth and fortune.";
     }
 }
 
 
+function createDesc($seed, $a, $b) {
+    return "You're number was generated from the seed <b>$seed</b> <br><br><hr><br>" . $a . "<br><br>" . $b;
+}
+
 $seedA = rand(0, 8);
 $seedB = rand(0, 8);
 
+srand($seedA * $seedB);
+
 $seedDescriptionA = getDescription($seedA);
+$seedDescriptionB = "";
+
+if($seedB !== $seedA)
+    $seedDescriptionB = getDescription($seedB);
+
+$netDescription = createDesc($seedA . " - " . $seedB, $seedDescriptionA, $seedDescriptionB);
 
 $luckyalpha  = chr(rand(65,90));
-
 $_lucky1 = rand(0, 99);
 $_lucky2 = rand(0, 99);
 $_lucky3 = rand(0, 99);
@@ -110,8 +126,8 @@ $_lucky6 = rand(0, 99);
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Services</h2>
-            <h3 class="section-subheading text-muted">We provide only the highest quality lucky numbers to help you win the next Powerball.</h3>
+            <h2 class="section-heading">What's In The Number</h2>
+            <h3 class="section-subheading text-muted"><?php echo $netDescription ?></h3>
           </div>
         </div>
       </div>
