@@ -208,7 +208,7 @@ $_lucky6 = rand(0, 99);
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Contact our expert Jason Harrison for more information!</h3>
+            <h3 class="section-subheading text-muted">Contact us for more information!</h3>
           </div>
         </div>
         <div class="row">
