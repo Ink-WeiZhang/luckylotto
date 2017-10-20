@@ -156,12 +156,12 @@ $_lucky6 = rand(0, 99);
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.facebook.com/lucky.lotto.3956">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/lucky-lotto-7205b5150/">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -180,12 +180,12 @@ $_lucky6 = rand(0, 99);
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.facebook.com/lucky.lotto.3956">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/lucky-lotto-7205b5150/">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -262,12 +262,12 @@ $_lucky6 = rand(0, 99);
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/lucky.lotto.3956">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/lucky-lotto-7205b5150/">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
