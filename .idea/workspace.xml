@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0886e765-5dd8-4c6a-a4fb-1b9b45294dc9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +16,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="307" column="0" lean-forward="true" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="75" column="117" lean-forward="false" selection-start-line="75" selection-start-column="117" selection-end-line="75" selection-end-column="117" />
               <folding>
-                <element signature="e#10033#10039#0#HTML" expanded="true" />
+                <element signature="e#9992#9998#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,12 +158,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508182561959</updated>
       <workItem from="1508182563302" duration="2793000" />
-      <workItem from="1508456970887" duration="1344000" />
+      <workItem from="1508456970887" duration="1479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4137000" />
+    <option name="totallyTimeSpent" value="4272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -205,7 +204,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10033#10039#0#HTML" expanded="true" />
+            <element signature="e#9992#9998#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -254,10 +253,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="307" column="0" lean-forward="true" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+        <state relative-caret-position="267">
+          <caret line="75" column="117" lean-forward="false" selection-start-line="75" selection-start-column="117" selection-end-line="75" selection-end-column="117" />
           <folding>
-            <element signature="e#10033#10039#0#HTML" expanded="true" />
+            <element signature="e#9992#9998#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
